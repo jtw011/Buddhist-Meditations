@@ -147,5 +147,18 @@ footer p {
         cursor: pointer;
         display: none;
     }
+
+    .overlay-text {
+        font-size: 14px; /* Reduce font size for smaller screens */
+        width: 80%; /* Adjust width to fit smaller screens */
+        text-align: center;
+        top: 20%; /* Adjust vertical positioning */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.6); /* Add slight background for readability */
+        color: white; /* Ensure text contrast */
+        padding: 8px;
+        border-radius: 5px;
+    }
 }
 
